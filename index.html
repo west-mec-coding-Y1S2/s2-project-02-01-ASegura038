@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+
+<head>
+    <!--
+    New Perspectives on HTML5 and CSS3, 7th Edition
+    Tutorial 1
+    Case Problem 1
+    
+    Jedds Tree Care Home Page
+    Author: Annette Segura
+    Date: 8-21-18
+
+    Filename: jtc_index.html
+   -->
+
+
+    <!--
+       this set of code shows the title of the website title and renders the overall base and layout of the website
+   -->
+    <meta charset="utf-8" </head>
+    <title>Jedds Tree Care</title>
+    <link rel="stylesheet" href="jtc_base.css">
+    <link rel="stylesheet" href="jtc_layout.css">
+    <!--
+      The set of code presented here is meant to navigate around the site using links.
+      the links here are are in an un-ordered list then wrapped in an anchor tag.   
+
+    -->
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="jtc_index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="jtc_services.html">Services</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--
+           Here in the aside tags, its full of text and wrapped in elements. They are reveiwes and are cited with the cite tag. 
+        -->
+        <aside>
+            <img src="jtc_comments.png" alt="Comments">
+            <blockquote>
+                <p>
+                    I hired Jedds to remove an old Sugar maple from a narrow yard. They did the job with no damage tomy garage and cleaned it
+                    all up that same day. Great service. —
+                    <cite>Kevin S (Dewitt)</cite>
+                </p>
+            </blockquote>
+
+            <blockquote>
+                <p>
+                    Jedds Tree Care promptly came to examine a downed tree and provide an estimate for its removal. They did the job fast and
+                    at the lowest bid. I'll call them again without hesitation for future lawn and garden needs. —
+                    <cite>Ann K (Stockbridge)</cite>
+                </p>
+            </blockquote>
+            <blockquote>
+                <p>
+                    Their team took down five trees in one day and did an immaculate clean-up. They took extr care not to disturb my lawn and
+                    garden.I highly recommend their service. —
+                    <cite>David P (Lansing)</cite>
+                </p>
+            </blockquote>
+
+        </aside>
+        <!--
+            This first set of code in the artical tag is a description of the company along with their email and number.
+            The text is wrapped in <p> tags and has provided and image that suits the cite. 
+        -->
+        <article>
+            <header>
+                <img src="jtc_photo1.png" alt="Jedds Tree Care">
+            </header>
+            <p>
+                Jedds Tree Care is a complete yard service including branch trimming, pruning, stump removal and emergency tree removal.
+                We offer same day emergency service 24/7. Jedds operates out of East Lansing, MI, but also serves the surrounding
+                counties for your urban and rural needs. We provide tree and yard care for both commercial and residential
+                clients. Customer satisfaction is our primary goal.
+            </p>
+            <p>
+                Our business is fully insured. Safety is our number one priority. We have professional arborists on staff to deal with your
+                special needs and we can handle any job, large or small.
+            </p>
+            <!--
+                This second set of code is the contact information. there are two hypertexts for the email and the phone number so if the costumer is interested, they contact them with the provided links. 
+            -->
+            <address>
+                <strong>Jedds Tree Care</strong>
+                <br /> 201 Edward Ave.
+                <br /> Lansing, MI 48930
+                <br /> email:
+                <a href="mailto:jeddstree@example.com">jeddstree@example.com</a>
+                <br /> phone:
+                <a href="tel:phone">517.555.4811</a>
+            </address>
+        </article>
+
+
+
+    </body>
+
+</html>
